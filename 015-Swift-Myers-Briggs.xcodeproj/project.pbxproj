@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7638E8621AD985B000361CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8611AD985B000361CE1 /* AppDelegate.swift */; };
+		7638E8641AD985B000361CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8631AD985B000361CE1 /* ViewController.swift */; };
+		7638E8671AD985B000361CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7638E8651AD985B000361CE1 /* Main.storyboard */; };
+		7638E8691AD985B000361CE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7638E8681AD985B000361CE1 /* Images.xcassets */; };
+		7638E86C1AD985B000361CE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7638E86A1AD985B000361CE1 /* LaunchScreen.xib */; };
+		7638E8781AD985B000361CE1 /* _15_Swift_Myers_BriggsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8771AD985B000361CE1 /* _15_Swift_Myers_BriggsTests.swift */; };
+		7638E8821AD985C800361CE1 /* QuestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8811AD985C800361CE1 /* QuestionItem.swift */; };
+		7638E8841AD985F800361CE1 /* PersonalityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8831AD985F800361CE1 /* PersonalityType.swift */; };
+		7638E8861AD9862200361CE1 /* MyersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8851AD9862200361CE1 /* MyersTest.swift */; };
+		7638E8881AD998B400361CE1 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8871AD998B400361CE1 /* CustomUIView.swift */; };
+		7638E88B1AD99D6400361CE1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8891AD99D6400361CE1 /* ColorExtension.swift */; };
+		7638E88C1AD99D6400361CE1 /* MD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E88A1AD99D6400361CE1 /* MD.swift */; };
+		7638E88F1AD99D8100361CE1 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E88E1AD99D8100361CE1 /* IntExtension.swift */; };
+		7638E8911AD99DA800361CE1 /* MDColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8901AD99DA800361CE1 /* MDColors.swift */; };
+		7638E8931AD99F7C00361CE1 /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638E8921AD99F7C00361CE1 /* GeneralExtensions.swift */; };
+		765A24801AD9CCDA00867518 /* AxureHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 765A247F1AD9CCDA00867518 /* AxureHandwriting.ttf */; };
+		765A24811AD9CCDA00867518 /* AxureHandwriting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 765A247F1AD9CCDA00867518 /* AxureHandwriting.ttf */; };
+		76C752E31ADA0A6200796370 /* MBTITypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C752E21ADA0A6200796370 /* MBTITypes.swift */; };
+		76C752E51ADA21D500796370 /* MyersBriggsTypes.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C752E41ADA21D500796370 /* MyersBriggsTypes.png */; };
+		76D218BA1AD9FABA00A1BA16 /* ResultCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D218B91AD9FABA00A1BA16 /* ResultCustomView.xib */; };
+		76D218BE1AD9FB3000A1BA16 /* ResultCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D218BD1AD9FB3000A1BA16 /* ResultCustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7638E8721AD985B000361CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7638E8541AD985B000361CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7638E85B1AD985B000361CE1;
+			remoteInfo = "015-Swift-Myers-Briggs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7638E85C1AD985B000361CE1 /* 015-Swift-Myers-Briggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "015-Swift-Myers-Briggs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7638E8601AD985B000361CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7638E8611AD985B000361CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7638E8631AD985B000361CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7638E8661AD985B000361CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7638E8681AD985B000361CE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7638E86B1AD985B000361CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7638E8711AD985B000361CE1 /* 015-Swift-Myers-BriggsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "015-Swift-Myers-BriggsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7638E8761AD985B000361CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7638E8771AD985B000361CE1 /* _15_Swift_Myers_BriggsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15_Swift_Myers_BriggsTests.swift; sourceTree = "<group>"; };
+		7638E8811AD985C800361CE1 /* QuestionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionItem.swift; path = ../QuestionItem.swift; sourceTree = "<group>"; };
+		7638E8831AD985F800361CE1 /* PersonalityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalityType.swift; path = ../PersonalityType.swift; sourceTree = "<group>"; };
+		7638E8851AD9862200361CE1 /* MyersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyersTest.swift; path = ../MyersTest.swift; sourceTree = "<group>"; };
+		7638E8871AD998B400361CE1 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		7638E8891AD99D6400361CE1 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		7638E88A1AD99D6400361CE1 /* MD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD.swift; sourceTree = "<group>"; };
+		7638E88E1AD99D8100361CE1 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		7638E8901AD99DA800361CE1 /* MDColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDColors.swift; sourceTree = "<group>"; };
+		7638E8921AD99F7C00361CE1 /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		765A247F1AD9CCDA00867518 /* AxureHandwriting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AxureHandwriting.ttf; sourceTree = "<group>"; };
+		76C752E21ADA0A6200796370 /* MBTITypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBTITypes.swift; path = ../MBTITypes.swift; sourceTree = "<group>"; };
+		76C752E41ADA21D500796370 /* MyersBriggsTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyersBriggsTypes.png; sourceTree = "<group>"; };
+		76D218B91AD9FABA00A1BA16 /* ResultCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultCustomView.xib; path = ../ResultCustomView.xib; sourceTree = "<group>"; };
+		76D218BD1AD9FB3000A1BA16 /* ResultCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultCustomView.swift; path = ../ResultCustomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7638E8591AD985B000361CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7638E86E1AD985B000361CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7638E8531AD985B000361CE1 = {
+			isa = PBXGroup;
+			children = (
+				7638E85E1AD985B000361CE1 /* 015-Swift-Myers-Briggs */,
+				7638E8741AD985B000361CE1 /* 015-Swift-Myers-BriggsTests */,
+				7638E85D1AD985B000361CE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7638E85D1AD985B000361CE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7638E85C1AD985B000361CE1 /* 015-Swift-Myers-Briggs.app */,
+				7638E8711AD985B000361CE1 /* 015-Swift-Myers-BriggsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7638E85E1AD985B000361CE1 /* 015-Swift-Myers-Briggs */ = {
+			isa = PBXGroup;
+			children = (
+				76D218BD1AD9FB3000A1BA16 /* ResultCustomView.swift */,
+				76D218B91AD9FABA00A1BA16 /* ResultCustomView.xib */,
+				7638E8651AD985B000361CE1 /* Main.storyboard */,
+				76C6B15A1ADA273100EE5ED9 /* Data */,
+				7638E88D1AD99D6900361CE1 /* Helper */,
+				7638E8631AD985B000361CE1 /* ViewController.swift */,
+				7638E8871AD998B400361CE1 /* CustomUIView.swift */,
+				7638E85F1AD985B000361CE1 /* Supporting Files */,
+			);
+			path = "015-Swift-Myers-Briggs";
+			sourceTree = "<group>";
+		};
+		7638E85F1AD985B000361CE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7638E86A1AD985B000361CE1 /* LaunchScreen.xib */,
+				7638E8681AD985B000361CE1 /* Images.xcassets */,
+				76C752E41ADA21D500796370 /* MyersBriggsTypes.png */,
+				7638E8611AD985B000361CE1 /* AppDelegate.swift */,
+				765A247F1AD9CCDA00867518 /* AxureHandwriting.ttf */,
+				7638E8601AD985B000361CE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7638E8741AD985B000361CE1 /* 015-Swift-Myers-BriggsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7638E8771AD985B000361CE1 /* _15_Swift_Myers_BriggsTests.swift */,
+				7638E8751AD985B000361CE1 /* Supporting Files */,
+			);
+			path = "015-Swift-Myers-BriggsTests";
+			sourceTree = "<group>";
+		};
+		7638E8751AD985B000361CE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7638E8761AD985B000361CE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7638E88D1AD99D6900361CE1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7638E8921AD99F7C00361CE1 /* GeneralExtensions.swift */,
+				7638E8901AD99DA800361CE1 /* MDColors.swift */,
+				7638E88E1AD99D8100361CE1 /* IntExtension.swift */,
+				7638E8891AD99D6400361CE1 /* ColorExtension.swift */,
+				7638E88A1AD99D6400361CE1 /* MD.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		76C6B15A1ADA273100EE5ED9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				76C752E21ADA0A6200796370 /* MBTITypes.swift */,
+				7638E8811AD985C800361CE1 /* QuestionItem.swift */,
+				7638E8851AD9862200361CE1 /* MyersTest.swift */,
+				7638E8831AD985F800361CE1 /* PersonalityType.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7638E85B1AD985B000361CE1 /* 015-Swift-Myers-Briggs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7638E87B1AD985B000361CE1 /* Build configuration list for PBXNativeTarget "015-Swift-Myers-Briggs" */;
+			buildPhases = (
+				7638E8581AD985B000361CE1 /* Sources */,
+				7638E8591AD985B000361CE1 /* Frameworks */,
+				7638E85A1AD985B000361CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "015-Swift-Myers-Briggs";
+			productName = "015-Swift-Myers-Briggs";
+			productReference = 7638E85C1AD985B000361CE1 /* 015-Swift-Myers-Briggs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7638E8701AD985B000361CE1 /* 015-Swift-Myers-BriggsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7638E87E1AD985B000361CE1 /* Build configuration list for PBXNativeTarget "015-Swift-Myers-BriggsTests" */;
+			buildPhases = (
+				7638E86D1AD985B000361CE1 /* Sources */,
+				7638E86E1AD985B000361CE1 /* Frameworks */,
+				7638E86F1AD985B000361CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7638E8731AD985B000361CE1 /* PBXTargetDependency */,
+			);
+			name = "015-Swift-Myers-BriggsTests";
+			productName = "015-Swift-Myers-BriggsTests";
+			productReference = 7638E8711AD985B000361CE1 /* 015-Swift-Myers-BriggsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7638E8541AD985B000361CE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = shomigo.com;
+				TargetAttributes = {
+					7638E85B1AD985B000361CE1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7638E8701AD985B000361CE1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7638E85B1AD985B000361CE1;
+					};
+				};
+			};
+			buildConfigurationList = 7638E8571AD985B000361CE1 /* Build configuration list for PBXProject "015-Swift-Myers-Briggs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7638E8531AD985B000361CE1;
+			productRefGroup = 7638E85D1AD985B000361CE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7638E85B1AD985B000361CE1 /* 015-Swift-Myers-Briggs */,
+				7638E8701AD985B000361CE1 /* 015-Swift-Myers-BriggsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7638E85A1AD985B000361CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765A24801AD9CCDA00867518 /* AxureHandwriting.ttf in Resources */,
+				7638E8671AD985B000361CE1 /* Main.storyboard in Resources */,
+				76C752E51ADA21D500796370 /* MyersBriggsTypes.png in Resources */,
+				7638E86C1AD985B000361CE1 /* LaunchScreen.xib in Resources */,
+				76D218BA1AD9FABA00A1BA16 /* ResultCustomView.xib in Resources */,
+				7638E8691AD985B000361CE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7638E86F1AD985B000361CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765A24811AD9CCDA00867518 /* AxureHandwriting.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7638E8581AD985B000361CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7638E8861AD9862200361CE1 /* MyersTest.swift in Sources */,
+				7638E8881AD998B400361CE1 /* CustomUIView.swift in Sources */,
+				7638E8841AD985F800361CE1 /* PersonalityType.swift in Sources */,
+				7638E8931AD99F7C00361CE1 /* GeneralExtensions.swift in Sources */,
+				7638E8641AD985B000361CE1 /* ViewController.swift in Sources */,
+				7638E88C1AD99D6400361CE1 /* MD.swift in Sources */,
+				76C752E31ADA0A6200796370 /* MBTITypes.swift in Sources */,
+				7638E88F1AD99D8100361CE1 /* IntExtension.swift in Sources */,
+				7638E8621AD985B000361CE1 /* AppDelegate.swift in Sources */,
+				7638E88B1AD99D6400361CE1 /* ColorExtension.swift in Sources */,
+				7638E8911AD99DA800361CE1 /* MDColors.swift in Sources */,
+				76D218BE1AD9FB3000A1BA16 /* ResultCustomView.swift in Sources */,
+				7638E8821AD985C800361CE1 /* QuestionItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7638E86D1AD985B000361CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7638E8781AD985B000361CE1 /* _15_Swift_Myers_BriggsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7638E8731AD985B000361CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7638E85B1AD985B000361CE1 /* 015-Swift-Myers-Briggs */;
+			targetProxy = 7638E8721AD985B000361CE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7638E8651AD985B000361CE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7638E8661AD985B000361CE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7638E86A1AD985B000361CE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7638E86B1AD985B000361CE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7638E8791AD985B000361CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7638E87A1AD985B000361CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7638E87C1AD985B000361CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "015-Swift-Myers-Briggs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7638E87D1AD985B000361CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "015-Swift-Myers-Briggs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7638E87F1AD985B000361CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "015-Swift-Myers-BriggsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/015-Swift-Myers-Briggs.app/015-Swift-Myers-Briggs";
+			};
+			name = Debug;
+		};
+		7638E8801AD985B000361CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "015-Swift-Myers-BriggsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/015-Swift-Myers-Briggs.app/015-Swift-Myers-Briggs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7638E8571AD985B000361CE1 /* Build configuration list for PBXProject "015-Swift-Myers-Briggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7638E8791AD985B000361CE1 /* Debug */,
+				7638E87A1AD985B000361CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7638E87B1AD985B000361CE1 /* Build configuration list for PBXNativeTarget "015-Swift-Myers-Briggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7638E87C1AD985B000361CE1 /* Debug */,
+				7638E87D1AD985B000361CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7638E87E1AD985B000361CE1 /* Build configuration list for PBXNativeTarget "015-Swift-Myers-BriggsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7638E87F1AD985B000361CE1 /* Debug */,
+				7638E8801AD985B000361CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7638E8541AD985B000361CE1 /* Project object */;
+}

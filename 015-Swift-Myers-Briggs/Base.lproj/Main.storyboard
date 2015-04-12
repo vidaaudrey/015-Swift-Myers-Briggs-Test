@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="t7F-GO-Dut">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AxureHandwriting.ttf">
+            <string>AxureHandwriting</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Myers Briggs Test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_15_Swift_Myers_Briggs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question: 1/20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yc-74-4Ji">
+                                <rect key="frame" x="238" y="89" width="124" height="22"/>
+                                <fontDescription key="fontDescription" name="AxureHandwriting" family="Axure Handwriting" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9yc-74-4Ji" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="9Df-NO-LzH"/>
+                            <constraint firstItem="9yc-74-4Ji" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ozH-sj-yvc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Myers Briggs Test" id="rq4-32-GSi"/>
+                    <connections>
+                        <outlet property="questionNumberLabel" destination="9yc-74-4Ji" id="5fT-9z-693"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kov-gO-kgJ">
+            <objects>
+                <viewController storyboardIdentifier="infoViewController" id="JVh-ih-NJr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ded-GM-iQo"/>
+                        <viewControllerLayoutGuide type="bottom" id="kvU-5h-WPU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IhV-qN-9ve">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="dismissBtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uq7-tY-nVm">
+                                <rect key="frame" x="273" y="562" width="54" height="30"/>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-PU-oS2">
+                                <rect key="frame" x="16" y="20" width="568" height="530"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="typeinfo" translatesAutoresizingMaskIntoConstraints="NO" id="dDT-VN-VVp">
+                                        <rect key="frame" x="0.0" y="290" width="1500" height="800"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="600" id="gqA-Ph-qVc"/>
+                                            <constraint firstAttribute="width" secondItem="dDT-VN-VVp" secondAttribute="height" multiplier="15:8" id="hdg-IR-s5M"/>
+                                            <constraint firstAttribute="height" constant="800" id="mer-Hs-YOZ"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="gqA-Ph-qVc"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Myers-Briggs Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnU-k4-hXU">
+                                        <rect key="frame" x="8" y="16" width="200" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gka-Bv-l5E">
+                                        <rect key="frame" x="8" y="71" width="568" height="183"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="183" id="EJA-YC-0F7"/>
+                                            <constraint firstAttribute="width" constant="568" id="Mrq-I5-kFg"/>
+                                        </constraints>
+                                        <mutableString key="text">The Myers–Briggs Type Indicator (MBTI) assessment is a psychometric questionnaire designed to measure psychological preferences in how people perceive the world and make decisions.[1][2][3] These preferences were extrapolated by Katharine Cook Briggs and Isabel Briggs Myers from the typological theories proposed by Carl Gustav Jung, and first published in his 1921 book Psychological Types (English edition, 1923[4]). Jung theorized that there are four principal psychological functions by which we experience the world: sensation, intuition, feeling, and thinking.[5] One of these four functions is dominant most of the time.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tnU-k4-hXU" firstAttribute="top" secondItem="DhX-PU-oS2" secondAttribute="top" constant="16" id="4cn-xq-na6"/>
+                                    <constraint firstAttribute="bottom" secondItem="dDT-VN-VVp" secondAttribute="bottom" id="8W5-ni-3AC"/>
+                                    <constraint firstAttribute="centerX" secondItem="dDT-VN-VVp" secondAttribute="centerX" id="MhQ-xl-0fz"/>
+                                    <constraint firstItem="dDT-VN-VVp" firstAttribute="top" secondItem="gka-Bv-l5E" secondAttribute="bottom" constant="36" id="OmM-Rp-N1C"/>
+                                    <constraint firstItem="tnU-k4-hXU" firstAttribute="leading" secondItem="DhX-PU-oS2" secondAttribute="leading" constant="8" id="RZT-2T-IHI"/>
+                                    <constraint firstAttribute="height" constant="390" id="UCw-zv-Hcr"/>
+                                    <constraint firstAttribute="height" constant="390" id="XP9-yd-a58"/>
+                                    <constraint firstAttribute="trailing" secondItem="tnU-k4-hXU" secondAttribute="trailing" id="YCI-vb-yvA"/>
+                                    <constraint firstAttribute="trailing" secondItem="dDT-VN-VVp" secondAttribute="trailing" id="edq-pU-p1B"/>
+                                    <constraint firstItem="gka-Bv-l5E" firstAttribute="top" secondItem="tnU-k4-hXU" secondAttribute="bottom" constant="34" id="jiE-OE-ZQ5"/>
+                                    <constraint firstAttribute="centerY" secondItem="dDT-VN-VVp" secondAttribute="centerY" id="mNp-uf-aF7"/>
+                                    <constraint firstItem="gka-Bv-l5E" firstAttribute="leading" secondItem="DhX-PU-oS2" secondAttribute="leading" constant="8" id="rHQ-O1-rmR"/>
+                                    <constraint firstItem="dDT-VN-VVp" firstAttribute="leading" secondItem="DhX-PU-oS2" secondAttribute="leading" id="tuC-Tr-Ev4"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UCw-zv-Hcr"/>
+                                        <exclude reference="XP9-yd-a58"/>
+                                        <exclude reference="YCI-vb-yvA"/>
+                                        <exclude reference="MhQ-xl-0fz"/>
+                                        <exclude reference="mNp-uf-aF7"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="uq7-tY-nVm" secondAttribute="centerX" id="BsC-1C-KU4"/>
+                            <constraint firstItem="DhX-PU-oS2" firstAttribute="width" secondItem="IhV-qN-9ve" secondAttribute="width" id="Kbg-Ka-upM"/>
+                            <constraint firstItem="DhX-PU-oS2" firstAttribute="top" secondItem="Ded-GM-iQo" secondAttribute="bottom" constant="50" id="Wxe-em-xKL"/>
+                            <constraint firstItem="kvU-5h-WPU" firstAttribute="top" secondItem="uq7-tY-nVm" secondAttribute="bottom" constant="8" id="XZD-x4-PYp"/>
+                            <constraint firstItem="kvU-5h-WPU" firstAttribute="top" secondItem="DhX-PU-oS2" secondAttribute="bottom" constant="50" id="qQ7-vQ-awg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DhX-PU-oS2" secondAttribute="trailing" id="ui6-z5-sbW"/>
+                            <constraint firstItem="DhX-PU-oS2" firstAttribute="leading" secondItem="IhV-qN-9ve" secondAttribute="leadingMargin" id="vbF-pR-pbO"/>
+                            <constraint firstItem="DhX-PU-oS2" firstAttribute="top" secondItem="Ded-GM-iQo" secondAttribute="bottom" id="zoG-Rn-8yZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Kbg-Ka-upM"/>
+                                <exclude reference="Wxe-em-xKL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Vp-Gi-C8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1104" y="1040"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YDe-uY-gwO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t7F-GO-Dut" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QhL-gc-e7P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Yzg-Ta-E2c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8t-5l-7fF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="275" y="509"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="typeinfo" width="1280" height="720"/>
+    </resources>
+</document>
